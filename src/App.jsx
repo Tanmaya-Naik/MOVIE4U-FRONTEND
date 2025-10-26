@@ -1,20 +1,25 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import MovieList from "./Components/MovieList/MainMovieList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import Navbar from "./Components/Navbar/Navbar";
+import MainMovieList from "./Components/MovieList/MainMovieList";
+import MovieDetails from "./Components/MovieList/MovieDetails";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-black to-black text-white">
-      <Navbar/>
-      <main>
-        <MovieList/>
-        
-      </main>
-    </div>
+    <Router>
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-black to-black text-white">
+        <Navbar />
 
+        <main>
+          <Routes>
+            <Route path="/" element={<MainMovieList />} />
+            <Route path="/movie/:id" element={<MovieDetails />} /> {/* ✅ Matches MovieCard Link */}
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
-}
+};
 
-
-export default App
+export default App;
