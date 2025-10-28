@@ -16,7 +16,7 @@ const MovieDetails = () => {
         const data = await res.json();
         setMovie(data);
       } catch (err) {
-        console.error("❌ Error fetching movie details:", err);
+        console.error(" Error fetching movie details:", err);
       } finally {
         setLoading(false);
       }
@@ -39,7 +39,7 @@ const MovieDetails = () => {
     ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
     : "/fallback-poster.png";
 
-  // ✅ Safe cast handling (array or string)
+  //  Safe cast handling (array or string)
   const castList = Array.isArray(movie.cast)
     ? movie.cast.join(", ")
     : movie.cast || "N/A";

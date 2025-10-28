@@ -15,7 +15,7 @@ const MovieCard = ({ movie }) => {
 
   return (
     <Link
-      to={`/movie/${movie.id}`} // ✅ Fixed route to match App.jsx
+      to={`/movie/${movie.id}`} 
       className="block w-48 md:w-52 rounded-lg overflow-hidden shadow-md transform transition-transform duration-200 hover:scale-105 no-underline"
     >
       <div className="relative">

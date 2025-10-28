@@ -38,7 +38,7 @@ const MainMovieList = () => {
             return [...prev, ...newItems];
           });
         } else if (pageNum === 1) {
-          setAllMovies([]); // Handle empty category gracefully
+          setAllMovies([]); 
         } else {
           setError("No more movies to load.");
         }

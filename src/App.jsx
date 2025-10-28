@@ -14,7 +14,7 @@ const App = () => {
         <main>
           <Routes>
             <Route path="/" element={<MainMovieList />} />
-            <Route path="/movie/:id" element={<MovieDetails />} /> {/* ✅ Matches MovieCard Link */}
+            <Route path="/movie/:id" element={<MovieDetails />} /> 
           </Routes>
         </main>
       </div>
