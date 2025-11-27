@@ -19,7 +19,7 @@ const MovieCard = ({ movie }) => {
       className="block w-48 md:w-52 rounded-lg overflow-hidden shadow-md transform transition-transform duration-200 hover:scale-105 no-underline"
     >
       <div className="relative">
-        <img src={poster} alt={title} loading="lazy" className="w-full h-auto block" />
+        <img src={poster} alt={title} loading="lazy" className="w-full h-[300px] object-cover rounded-lg" />
         <div className="absolute bottom-0 left-0 w-full h-2/5 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
 
         <div className="absolute bottom-0 left-0 w-full px-3 pb-3 pt-8 text-white opacity-0 hover:opacity-100 transition-opacity duration-300">
