@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 import Fire from "../../assets/fire.png";
 import Party from "../../assets/partying-face.png";
 
@@ -37,6 +38,13 @@ const handleSearch = () => {
         >
           Search
         </button>
+
+      {/* watchlist */}
+      <Link 
+      to="/watchlist"
+      className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-4 py-2 m-5 rounded-lg transition ">
+        Watchlist
+      </Link>
       </div>
     </nav>
   );
