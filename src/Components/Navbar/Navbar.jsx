@@ -39,11 +39,11 @@ const handleSearch = () => {
           Search
         </button>
 
-      {/* watchlist */}
+      {/* Favorites */}
       <Link 
       to="/watchlist"
       className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-4 py-2 m-5 rounded-lg transition ">
-        Watchlist
+        Favourites
       </Link>
       </div>
     </nav>
