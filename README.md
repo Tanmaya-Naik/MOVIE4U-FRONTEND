@@ -1,16 +1,99 @@
-# React + Vite
+# 🎬 Movie4U – Frontend (Movie Discovery Web App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie4U is a **frontend web application** that allows users to discover, search, and explore movies through a clean and responsive interface.
 
-Currently, two official plugins are available:
+This repository contains **only the frontend code**, deployed independently on **Vercel**.  
+The backend is maintained in a **separate repository**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 **Deployed on Vercel**  
+👉 https://movie-4-u-frontend.vercel.app/
 
-## Expanding the ESLint configuration
+⏳ **Note:**  
+This project is deployed on **Vercel Free Tier**, so the first load may take a few seconds due to cold start.  
+Please be patient. The app works normally after initial load.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔍 Search movies by title
+- 🎞️ Browse popular & trending movies
+- 📄 View detailed movie information  
+  (overview, rating, release date, etc.)
+- ⚡ Fast and responsive UI
+- 🌐 Real-time data fetched from an external movie API
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **REST API integration**
+- **Responsive design principles**
+
+---
+
+## 🧠 What This Frontend Focuses On
+
+- Clean and structured UI
+- API consumption using async JavaScript
+- DOM manipulation and dynamic rendering
+- Clear separation of frontend and backend
+- Readable and maintainable code structure
+
+This repository contains **frontend logic only**.  
+No server-side or database code is included here.
+
+---
+
+## 📂 Project Structure
+
+- `/css` → Stylesheets  
+- `/js` → JavaScript logic & API calls  
+- `/assets` → Images / icons  
+- `index.html` → Application entry point  
+
+---
+
+## 🎯 Purpose of This Project
+
+- Strengthen **real-world frontend development skills**
+- Build and deploy a **production-style frontend**
+- Practice working with APIs and live data
+- Showcase a **main portfolio project**
+
+---
+
+## ⭐ Support
+
+If you find this project useful or interesting:
+- Give the repository a ⭐
+- Explore the code to understand the implementation
+
+---
+
+## 🤝 Connect With Me
+
+For frontend development, projects, or opportunities:
+
+🔗 **LinkedIn**  
+👉 https://www.linkedin.com/in/tanmaya-kumar-naik38-/
+
+---
+
+## ⚠️ Note
+
+- This repository contains **frontend source code only**
+- Backend is maintained in a **separate repository**
+- No build artifacts or unnecessary files are included
+
+---
+
+Built to learn.  
+Deployed to prove it.
